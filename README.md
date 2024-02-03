@@ -2,6 +2,7 @@
 # ESP32 M2M MQTT 8 LEDs CONTROL
 
 **Publisher**
+
 Controller: ESP32 Dev Kit
 Input: 8 Pushbuttons (internally pulled up)
 Output: JsonData published to MQTT broker
@@ -26,6 +27,7 @@ JsonData: {"led1":0, "led2":0, "led3":0, "led4":0, "led5":0, "led6":0, "led7":0,
 ![image](https://github.com/ahmadq122/esp32-m2m-mqtt-8led-control/assets/74335302/69255fdc-be57-4a12-aa25-0568be2cdf41)
 
 **Subscriber**
+
 Controller: ESP32 Dev Kit
 Output: 8 LEDs
 Input: JsonData subscribed in MQTT broker
