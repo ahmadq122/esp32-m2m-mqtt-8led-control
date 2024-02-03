@@ -13,8 +13,8 @@
 #define TESTDEBUG
 
 // Replace the next variables with your SSID/Password combination
-const char *ssid = "Dorm_New_AP";
-const char *password = "qweR$126";
+const char *ssid = "ssid_name";
+const char *password = "ssid_password";
 
 // Add your MQTT Broker IP address, example:
 // const char* mqtt_server = "192.168.1.144";
